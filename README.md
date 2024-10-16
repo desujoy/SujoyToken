@@ -3,9 +3,16 @@
 This project implements a basic ERC-20 token using Solidity. The token is named **SujoyToken** with the symbol **SDT** and follows the ERC-20 standard, allowing users to transfer tokens, approve spenders, and check balances.
 
 ## Deployed Contract:
-- Sepolia Testnet: `0xF8b689ecc168d94cf1200a89A62B3f79BB27a092`
-  - [Token](https://sepolia.etherscan.io/token/0xF8b689ecc168d94cf1200a89A62B3f79BB27a092)
-  - [Contract](https://sepolia.etherscan.io/address/0xF8b689ecc168d94cf1200a89A62B3f79BB27a092)
+- Sepolia Testnet: `0x76B3d79282D018F423A5e223f344eD3E5E5f0617`
+  - [Token](https://sepolia.etherscan.io/token/0x76B3d79282D018F423A5e223f344eD3E5E5f0617) (Total Supply 100 SDT)
+  - [Contract](https://sepolia.etherscan.io/address/0x76B3d79282D018F423A5e223f344eD3E5E5f0617)
+
+## Token Details
+
+- **Name**: SujoyToken
+- **Symbol**: SDT
+- **Decimals**: 18
+- **Initial Supply**: Specified during deployment (scaled by 10^18 due to decimals).
 
 ## Features
 
@@ -16,20 +23,6 @@ The token contract supports the following functionalities:
 - **transfer**: Enables transferring tokens between addresses.
 - **approve**: Allows an address to authorize a spender to use a specified number of tokens.
 - **transferFrom**: Allows an approved spender to transfer tokens on behalf of the token owner.
+- **allowance**: Returns the amount an approved contract is still allowed to spend or withdraw.
+- **burn**: Allows a user to burn tokens, permanently reducing the total supply.
 
-## Token Details
-
-- **Name**: SujoyToken
-- **Symbol**: SDT
-- **Decimals**: 18
-- **Initial Supply**: Specified during deployment (scaled by 10^18 due to decimals).
-
-## Interacting with the Contract
-
-You can use the following methods to interact with your deployed token contract:
-
-- **totalSupply**: View the total token supply.
-- **balanceOf(address)**: Check the token balance of any address.
-- **transfer(address, amount)**: Transfer tokens to another address.
-- **approve(address, amount)**: Approve a spender to spend tokens on your behalf.
-- **transferFrom(address, address, amount)**: Transfer tokens from an approved address to another.
