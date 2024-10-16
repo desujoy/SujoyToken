@@ -2,6 +2,11 @@
 
 This project implements a basic ERC-20 token using Solidity. The token is named **SujoyToken** with the symbol **SDT** and follows the ERC-20 standard, allowing users to transfer tokens, approve spenders, and check balances.
 
+## Deployed Contract:
+- Sepolia Testnet: `0xF8b689ecc168d94cf1200a89A62B3f79BB27a092`
+  - [Token](https://sepolia.etherscan.io/token/0xF8b689ecc168d94cf1200a89A62B3f79BB27a092)
+  - [Contract](https://sepolia.etherscan.io/address/0xF8b689ecc168d94cf1200a89A62B3f79BB27a092)
+
 ## Features
 
 The token contract supports the following functionalities:
